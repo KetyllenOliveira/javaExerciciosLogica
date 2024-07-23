@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Exercicio40 {
+class Exercicio40 {
     
     public static void resolver40() {
+
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite a descrição do produto: ");
-            String descricao = scanner.next();
+            String produto  = scanner.next();
             System.out.print("Digite a quantidade adquirida: ");
             int quantidade = scanner.nextInt();
             System.out.print("Digite o preço unitário: ");
@@ -33,5 +34,7 @@ public class Exercicio40 {
     @Override
     public String toString() {
         return "Exercicio40 []";
+        
     }
 }
+

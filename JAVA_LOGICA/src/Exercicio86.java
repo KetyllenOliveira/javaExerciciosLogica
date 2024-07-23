@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio86 {
-    public static void resolver76() {
+    public static void resolver86() {
         try (Scanner scanner = new Scanner(System.in)) {
             int[] numeros = new int[20];
             for (int i = 0; i < 20; i++) {

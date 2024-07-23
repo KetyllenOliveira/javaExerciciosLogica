@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio69 {
-    public static void main(String[] args) {
+    public static void resolver69() {
         try (Scanner scanner = new Scanner(System.in)) {
             double somaValores = 0;
             int quantidade = 0;

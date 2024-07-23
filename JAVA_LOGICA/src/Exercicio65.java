@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio65 {
-    public static void main(String[] args) {
+    public static void resolver65() {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite o primeiro valor: ");
             int valor1 = scanner.nextInt();

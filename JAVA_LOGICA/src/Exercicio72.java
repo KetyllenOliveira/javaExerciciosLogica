@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio72 {
     public static void resolver72 () {
+        
         try (Scanner scanner = new Scanner(System.in)) {
             double maiorPreco = Double.MIN_VALUE;
             double somaPrecos = 0.0; // Inicializamos com 0.0 para utilizar double
